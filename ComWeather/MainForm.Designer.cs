@@ -28,6 +28,8 @@ namespace ComWeather
             this.txtLog = new System.Windows.Forms.TextBox();
             this.txtParsedData = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
+            this.txtFileData = new System.Windows.Forms.TextBox();
+            this.txtJsonData = new System.Windows.Forms.TextBox();
             // 
             // txtPortName
             // 
@@ -101,6 +103,25 @@ namespace ComWeather
             this.txtParsedData.ReadOnly = true;
             this.txtParsedData.Size = new System.Drawing.Size(776, 150);
             this.txtParsedData.TabIndex = 7;
+            // Настройка txtFileData
+            this.txtFileData.Location = new System.Drawing.Point(12, 300);
+            this.txtFileData.Multiline = true;
+            this.txtFileData.ReadOnly = true;
+            this.txtFileData.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
+            this.txtFileData.Size = new System.Drawing.Size(376, 200);
+            this.txtFileData.TabIndex = 5;
+
+            // Настройка txtJsonData
+            this.txtJsonData.Location = new System.Drawing.Point(400, 300);
+            this.txtJsonData.Multiline = true;
+            this.txtJsonData.ReadOnly = true;
+            this.txtJsonData.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
+            this.txtJsonData.Size = new System.Drawing.Size(376, 200);
+            this.txtJsonData.TabIndex = 6;
+
+            // Добавьте их на форму
+            this.Controls.Add(this.txtFileData);
+            this.Controls.Add(this.txtJsonData);
             // 
             // MainForm
             // 
@@ -127,5 +148,7 @@ namespace ComWeather
         private System.Windows.Forms.Button btnDisconnect;
         private System.Windows.Forms.TextBox txtLog;
         private System.Windows.Forms.TextBox txtParsedData;
+        private System.Windows.Forms.TextBox txtFileData;
+        private System.Windows.Forms.TextBox txtJsonData;
     }
 }
