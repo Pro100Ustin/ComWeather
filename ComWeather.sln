@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.34916.146
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ComWeather", "ComWeather\ComWeather.csproj", "{AF75642F-75F5-4776-B071-B69F7129A064}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Элементы решения", "Элементы решения", "{332083FB-0615-4A39-95BD-A5C52779C3AB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AF75642F-75F5-4776-B071-B69F7129A064}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF75642F-75F5-4776-B071-B69F7129A064}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF75642F-75F5-4776-B071-B69F7129A064}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF75642F-75F5-4776-B071-B69F7129A064}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {80C83FF3-BDC5-4BB9-A6F7-9D770783CB71}
+	EndGlobalSection
+EndGlobal
